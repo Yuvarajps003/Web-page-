@@ -69,9 +69,9 @@ body {
     font-size: 35px;
   } 
    
-  .head-des { 
+ /* .head-des { 
     color:hsl(240, 22%, 79%);
-  }
+  }*/
    
   .btn-email { 
     height: 40px; 
@@ -96,7 +96,7 @@ body {
   #container-2 { 
     background-image: url("C:\Users\dhili\Desktop\dhilip\Images\images\bg-curve-desktop.svg"); 
     padding: 3% 5%; 
-    color: hsl(243, 77%, 15%); 
+   /* color: hsl(243, 77%, 15%); */
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -124,10 +124,10 @@ body {
     width: 100%; 
   } 
    
-  .head2-des { 
+ /* .head2-des { 
     color:hsl(240, 20%, 79%);
     width: 90%; 
-  } 
+  } */
    
   .fylo-link { 
     color: hsl(170, 45%, 43%); 
@@ -136,7 +136,7 @@ body {
    
   .founder { 
     width: 60%; 
-    background-color: #fff; 
+   /* background-color: #fff; */
     border-radius: 5px; 
     padding: 20px; 
     box-shadow: 0 0 8px grey; 
@@ -161,7 +161,7 @@ body {
   /* container-3 */ 
   #container-3 { 
     padding: 5% 5%; 
-    background-color: hsl(238, 22%, 44%); 
+   /* background-color: hsl(238, 22%, 44%); */
     color: #fff; 
     display: flex; 
   } 
@@ -187,7 +187,7 @@ body {
    
   /* container-4 */ 
   #container-4 { 
-    background-color: hsl(243, 87%, 12%); 
+   /* background-color: hsl(243, 87%, 12%); */
     color: #fff; 
     padding: 7% 5%; 
   } 

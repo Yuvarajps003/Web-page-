@@ -31,7 +31,7 @@ body {
     color: #79a5aa; 
     text-decoration: none; 
   }
-  .icon{
+  #icon{
     width:30px;
     cursor:pointer;}
 .dark-theme{

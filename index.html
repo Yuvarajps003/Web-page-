@@ -9,6 +9,18 @@
   <link rel="stylesheet" href="style.css">
   <title>static webpage</title>
   <script src="https://kit.fontawesome.com/95bb7036ba.js"crossorigin="anonymous"></script>
+  <script>
+    var icon= document.getElementById("icon");
+    icon.onclick= function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.contains("dark-theme")){
+        icon.src="Images/light.jpg";
+      }else{
+        icon.src="Images/dark.jpg";
+      }
+    }
+  </script>
+  
 
 </head>
 
@@ -21,11 +33,10 @@
           <p class="nav-items"><a href="#">Features</a></p>
           <p class="nav-items"><a href="#">Team</a></p>
           <p class="nav-items"><a href="#">Sign In</a></p>
+          <img src="image/dark.jpg" id="icon">
+          
         </div>
-        <label class="switch">
-    <input type="checkbox">
-    <span class="slider"></span>
-</label>
+        
       </div>
     </div>
 

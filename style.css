@@ -34,6 +34,7 @@ body {
   #icon{
     width:30px;
     height:30px;
+    background-color:black;
     cursor:pointer;}
 .dark-theme{
     background-color: #000;

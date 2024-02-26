@@ -31,12 +31,14 @@ body {
     color: #79a5aa; 
     text-decoration: none; 
   }
-  button{
-    cursor:pointer;
-  };
   .dark-mode{
     background-color:black;
-    color:white;}
+    color:white;
+  }
+  .light-mode{
+    background-color:white;
+    color:black;
+  }
     
     
   

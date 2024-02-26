@@ -31,15 +31,13 @@ body {
     color: #79a5aa; 
     text-decoration: none; 
   }
-  #icon{
-    width:30px;
-    height:30px;
-    background-color:black;
-    cursor:pointer;}
-.dark-theme{
-    background-color: #000;
-    color:#fff;
-  }
+  i{
+    font-size:150px;
+    cursor:pointer;
+    position:absolute;
+    transform:translate(-50%,-50%);}
+    
+    
   
 
  

@@ -48,7 +48,64 @@
         <p class="head-des">Fylo stores your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.</p>
-        <input class="btn-email" type="email" placeholder="Enter your email..." aria-label="btn-email">
+        <input class="btn-email" id="email" type="email" placeholder="Enter your email..." aria-label="btn-email">
+        <script> 
+ 
+            const email = document.querySelector('#email'); 
+ 
+            form.addEventListener('submit', (e) => { 
+ 
+                if (!validateInputs()) { 
+                    e.preventDefault(); 
+                } 
+            }) 
+ 
+            function validateInputs() { 
+                const emailVal = email.value.trim(); 
+                let success = true 
+ 
+                if (emailVal === '') { 
+                    success = false; 
+                    setError(email, 'Email is required') 
+                } 
+                else if (!validateEmail(emailVal)) { 
+                    success = false; 
+                    setError(email, 'Please check your email') 
+                } 
+                else { 
+                    setSuccess(email) 
+                } 
+ 
+                return success; 
+ 
+            } 
+ 
+            function setError(element, message) { 
+                const inputGroup = element.parentElement; 
+                const errorElement = inputGroup.querySelector('.error') 
+ 
+                errorElement.innerText = message; 
+                inputGroup.classList.add('error') 
+                inputGroup.classList.remove('success') 
+            } 
+ 
+            function setSuccess(element) { 
+                const inputGroup = element.parentElement; 
+                const errorElement = inputGroup.querySelector('.error') 
+ 
+                errorElement.innerText = ''; 
+                inputGroup.classList.add('success') 
+                inputGroup.classList.remove('error') 
+            } 
+ 
+            const validateEmail = (email) => { 
+                return String(email) 
+                    .toLowerCase() 
+                    .match( 
+                        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ 
+                    ); 
+            }; 
+        </script>
         <input class="btn-getstarted" type="button" value="Get Started">
       </div>
     </div>
@@ -95,7 +152,7 @@
         If you have any questions, our support team would be happy to help you.</p>
     </div>
     <div class="part-2">
-      <input class="btn-email" type="email" placeholder="email@example.com" aria-label="btn-email"><br>
+      <input class="btn-email" id="email" type="email" placeholder="email@example.com" aria-label="btn-email"><br>
       <input class="btn-getstarted2" type="button" value="Get Started For Free">
     </div>
 

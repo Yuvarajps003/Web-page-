@@ -31,8 +31,12 @@ body {
     color: #79a5aa; 
     text-decoration: none; 
   }
-  #button{
-    margin:5px;
+  button{
+    cursor:pointer;
+  };
+  .dark-mode{
+    background-color:black;
+    color:white;}
     
     
   

@@ -11,12 +11,15 @@
   <script src="https://kit.fontawesome.com/95bb7036ba.js"crossorigin="anonymous">
   </script>
   <script>
-  function myfunction(){
+  function darkMode(){
     let element=document.body;
-    element.classList.toggle(dark-mode);}
-    </script>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icon@1.3.0/font/bootstrap-icons.css"/>
+    element.className="dark-mode";
+  }
+    function lightMode(){
+      let element=document.body;
+      element.className="light-mode";
+    }
+  </script>
   
 
 </head>
@@ -30,8 +33,8 @@
           <p class="nav-items"><a href="#">Features</a></p>
           <p class="nav-items"><a href="#">Team</a></p>
           <p class="nav-items"><a href="#">Sign In</a></p>
-          <button onclick="darkmode()">Darkmode</button>;
-          <button onclick="lightmode()">Lightmode</button>
+          <button onclick="darkMode()">Darkmode</button>
+          <button onclick="lightMode()">Lightmode</button>
           
         </div>
         

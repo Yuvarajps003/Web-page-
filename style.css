@@ -163,7 +163,7 @@ body {
   /* container-3 */ 
   #container-3 { 
     padding: 5% 5%; 
-   /* background-color: hsl(238, 22%, 44%); */
+    background-color: hsl(238, 22%, 44%); 
     color: #fff; 
     display: flex; 
   } 
@@ -189,7 +189,7 @@ body {
    
   /* container-4 */ 
   #container-4 { 
-   /* background-color: hsl(243, 87%, 12%); */
+   background-color: hsl(243, 87%, 12%); 
     color: #fff; 
     padding: 7% 5%; 
   } 

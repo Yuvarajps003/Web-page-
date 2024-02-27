@@ -136,10 +136,10 @@ body {
     width: 100%; 
   } 
    
- .head2-des { 
+/* .head2-des { 
     color:hsl(240, 20%, 79%);
     width: 90%; 
-  } 
+  } */
    
   .fylo-link { 
     color: hsl(170, 45%, 43%); 

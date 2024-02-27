@@ -1,3 +1,11 @@
+.dark-mode{
+    background-color:black;
+    color:white;
+  }
+  .light-mode{
+    background-color:white;
+    color:black;
+  } 
 h1, h2, h3, h4, h5, h6 { 
   font-family: 'Raleway', sans-serif; 
   font-weight: 700; 
@@ -43,14 +51,7 @@ body {
     color: #79a5aa; 
     text-decoration: none; 
   }
-  .dark-mode{
-    background-color:black;
-    color:white;
-  }
-  .light-mode{
-    background-color:white;
-    color:black;
-  }
+  
     
     
   

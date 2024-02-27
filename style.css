@@ -9,7 +9,15 @@ body {
     font-family: 'Open Sans', sans-serif; 
   } 
  #button{
-   width:20%;}
+   background:#1E90FF;
+   width:20%;
+   color:white;
+   border-radius:5px;
+   cursor:pointer;}
+#button:hover,#button:focus,#button:active{
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);}
    
   /* container-1 */ 
   #container-1 { 
